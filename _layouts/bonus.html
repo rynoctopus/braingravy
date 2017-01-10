@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+<div class="episode--nobg">
+	<div class="episode__header">
+		<a href="/"><img class="episode__wdyc" src="/assets/itunes.png" alt="Why Do You Care?!"></a>
+		<h2 class="episode__number">Bonus</h2>
+		<h1 class="episode__title">{{page.title | slice: 7,1000 }}</h1>
+		<audio id="audio" src="{{page.file}}"></audio>	
+		<button class="episode__play" id="play"><i class="material-icons">play_arrow</i></button>
+	</div>
+	{% include listen-box.html %}
+	<div class="episode__content">
+
+		<h2 style="text-align: center; margin-bottom: 40px; font-size: 30px;">Show Notes</h2>
+		{{page.content}}
+	</div>
+</div>
+
+
+

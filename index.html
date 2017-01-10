@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="welcome">
+	<img class="album-art" src="/assets/itunes.png" alt="Why Do You Care?!">
+	<h2 class="welcome__text">A podcast about the media we love, the media we hate, and why we care.</h2>
+	<p class="welcome__hosts">Hosted by <a href="{{ site.will_url }}">Will Moyer</a> and <a href="{{ site.kt_url }}">KT Allinson</a></p>
+</div>
+{% include listen-box.html %}
+
+<ul class="episode-list">
+<h2 style="width: 100%; text-align: center; font-weight: 500;">Episodes</h2>
+{% for episode in site.categories.episodes %}
+	{% if episode.layout == "episode" %}
+		{% if episode.title == "S02E07: In Love in a Movie" or episode.title == "S02E03: Just Turn Off Your Brain and Enjoy It" %}
+		<li class="episode-list__li" style="background-image: url('{{episode.promo}}'); background-position: center right;"><a class="episode-list__link" href="{{ episode.url }}"><div class="episode-list__title"><span class="episode-list__number">{{episode.title | slice: 0,6}}</span>{{episode.title | slice: 7,1000}}</div></a></li>
+		{% else %}
+		<li class="episode-list__li" style="background-image: url('{{episode.promo}}');"><a class="episode-list__link" href="{{ episode.url }}"><div class="episode-list__title"><span class="episode-list__number">{{episode.title | slice: 0,6}}</span>{{episode.title | slice: 7,1000}}</div></a></li>
+		{% endif %}
+	{% endif %}
+{% endfor %}	
+</ul>

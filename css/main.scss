@@ -149,7 +149,7 @@ i, .material-icons {
 .welcome {
 	position: relative;
 	background-color: rgba(0,0,0,1);
-	background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url('/assets/bg2.jpg');
+	background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url('/assets/bg3.jpg');
 	background-position: center;
 	background-size: cover;
 	padding-top: 60px;
@@ -186,7 +186,7 @@ i, .material-icons {
 
 @media only screen and (min-width: 600px) {
 	.welcome {
-		background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),url('/assets/bg2.jpg');
+		background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),url('/assets/bg3.jpg');
 	}
 
 	.album-art {

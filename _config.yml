@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Why Do You Care?!
-email: moyer.will@gmail.com
+title: Brain Gravy with Ryan Heckman 
+email: ryanheckman@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  A podcast about the media we love, the media we hate, and why we care.
+  Stand up comedian Ryan Heckman discusses everthing and anything with reoccurring co-host and guest. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://whydoyoucare.fm" # the base hostname & protocol for your site
+url: "http://braingravy.org" # the base hostname & protocol for your site
 lang: en-US
 
 # Build settings
@@ -19,5 +19,4 @@ markdown: kramdown
 permalink: :title
 
 # Global vars
-kt_url: https://twitter.com/kingdomhorse
-will_url: https://twitter.com/willmoyer
+ryan_url: https://twitter.com/rynoctopus

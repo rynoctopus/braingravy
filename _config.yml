@@ -9,7 +9,7 @@
 title: Brain Gravy with Ryan Heckman 
 email: ryanheckman@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Stand up comedian Ryan Heckman discusses everthing and anything with reoccurring co-host and guest. 
+  Stand up comedian Ryan Heckman discusses anything and everything.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://braingravy.org" # the base hostname & protocol for your site
 lang: en-US

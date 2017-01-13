@@ -5,28 +5,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 	<channel>
 		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>Why Do You Care?!</title>
-		<description>A podcast about the media we love, the media we hate, and why we care.</description>
+		<title>Brain Gravy with Ryan Heckman</title>
+		<description>Stand up comedian Ryan Heckman discusses anything and everything.</description>
 		<link>{{ site.url }}</link>
 		<language>{{ site.lang }}</language>
-		<copyright>2015-2016 Why Do You Care?</copyright>
+		<copyright>2016-2017 Ryan Heckman</copyright>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<image>
 			<link>{{ site.url }}</link>
-			<url>{{ site.url }}/assets/itunes.png</url>
-			<title>Why Do You Care?!</title>
+			<url>{{ site.url }}/assets/logoV1.1.png</url>
+			<title>Brain Gravy with Ryan Heckman</title>
 		</image>
-		<itunes:subtitle>A podcast about the media we love, the media we hate, and why we care.</itunes:subtitle>
-		<itunes:summary>A podcast about the media we love, the media we hate, and why we care.</itunes:summary>
-		<itunes:author>Will Moyer, Katie Allinson</itunes:author>
-		<itunes:keywords>media, movies, tv, shows, will, moyer, katie, allinson, kt, buffy, books, review, star, wars, game, thrones</itunes:keywords>
+		<itunes:subtitle>Stand up comedian Ryan Heckman discusses anything and everything.</itunes:subtitle>
+		<itunes:summary>Stand up comedian Ryan Heckman discusses anything and everything.</itunes:summary>
+		<itunes:author>Ryan Heckman</itunes:author>
+		<itunes:keywords>comedy, standup, talk, joe, rogan, experience, deathsquad, legion, skanks, science, media, news, video, games, nerd, comics, nerdist, pop, culter, technology, politics, npr</itunes:keywords>
 		<itunes:owner>
-			<itunes:name>Will Moyer</itunes:name>
-			<itunes:email>moyer.will@gmail.com</itunes:email>
+			<itunes:name>Brain Gravy with Ryan Heckman</itunes:name>
+			<itunes:email>thebraingravy@gmail.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/assets/itunes.png" />
-		<itunes:category text="TV &amp; Film"/>
+		<itunes:image href="{{ site.url }}/assets/logoV1.1.png" />
+		<itunes:category text="Comedy"/>
 		<itunes:category text="Society &amp; Culture"/>
 		<itunes:explicit>yes</itunes:explicit>
 		{% for episode in site.categories.episodes %}
@@ -36,7 +36,7 @@
 				<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 				<guid isPermaLink="true">{{ site.url }}{{ episode.url }}</guid>
 				<enclosure url="{{ episode.file }}" length="{{ episode.length }}" type="audio/mp3"/>
-				<itunes:author>Will Moyer, Katie Allinson</itunes:author>
+				<itunes:author>Ryan Heckman</itunes:author>
 				<itunes:subtitle>{{ episode.summary | xml_escape }}</itunes:subtitle>
 				<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
 				<itunes:duration>{{ episode.duration }}</itunes:duration>

@@ -25,7 +25,7 @@
 			<itunes:name>Brain Gravy with Ryan Heckman</itunes:name>
 			<itunes:email>thebraingravy@gmail.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/assets/logoV1.1.png" />
+		<itunes:image href="{{ site.url }}/assets/logoV1.1.jpg" />
 		<itunes:category text="Comedy"/>
 		<itunes:category text="Society &amp; Culture"/>
 		<itunes:explicit>yes</itunes:explicit>

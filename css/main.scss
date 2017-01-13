@@ -135,6 +135,13 @@ i, .material-icons {
 		}
 	}
 
+	.btn--youtube {
+		background-color: #e52d27;
+		&:hover {
+			background-color: lighten(#e52d27, 8%);
+		}
+	}
+
 .footer {
 	text-align: center;
 	font-size: 12px;
